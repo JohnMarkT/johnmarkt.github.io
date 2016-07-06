@@ -1,0 +1,48 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: John Mark Thrasher
+
+# Short bio or description (displayed in the header)
+description: Frontend Developer
+
+logo: images/logo.svg
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: github@johnmarkthrasher.com
+  facebook: johnmarkthrasher
+  github: JohnMarkT
+  instagram: johnmarkthrasher
+  linkedin: johnmarkt
+  twitter: johnmarkt
+  stackoverflow: users/2379762/johnmarkt
+  youtube: channel/UC6lR-c0cN1Jto8QO6jQPX1w
+  googleplus: JohnMarkThrasher
+
+# Used for Sitemap.xml and your RSS feed
+url: https://johnmarkt.github.io/
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
