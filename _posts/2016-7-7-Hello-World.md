@@ -5,12 +5,8 @@ title: Hello World!
 
 Just a beginning.
 
-<script style="display:inline;">
-  var goConsole = (function () {
-        go();
-        return go;
-        function go(){
-          console.log("SIFR module");
-        }
-      }());
-</script>
+{% highlight js %}
+{% include post-assets/2016-7-7-console.js %}
+{% endhighlight %}
+
+<script src="/_includes/post-assets/2016-7-7-console.js"></script>
