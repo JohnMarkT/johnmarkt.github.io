@@ -8,7 +8,7 @@ name: John Mark Thrasher
 # Short bio or description (displayed in the header)
 description: Frontend Developer
 
-logo: images/logo.svg
+logo: /images/logo.svg
 
 #
 # Flags below are optional
@@ -34,6 +34,11 @@ url: https://johnmarkt.github.io/
 #
 
 permalink: /:title/
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
 
 # Set the Sass partials directory, as we're using @imports
 sass:
