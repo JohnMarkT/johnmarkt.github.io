@@ -5,6 +5,12 @@ title: Hello World!
 
 Just a beginning.
 
-<script>
-  console.log("JavaScript running inside a post.");
+<script style="display:inline;">
+  var goConsole = (function () {
+        go();
+        return go;
+        function go(){
+          console.log("SIFR module");
+        }
+      }());
 </script>
