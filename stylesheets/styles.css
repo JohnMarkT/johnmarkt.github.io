@@ -175,6 +175,10 @@ section {
   padding-bottom:50px;
 }
 
+article.post {
+  margin-bottom: 2em;
+}
+
 small {
   font-size:11px;
 }
