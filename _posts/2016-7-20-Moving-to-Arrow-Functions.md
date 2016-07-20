@@ -10,7 +10,7 @@ Old way
 var nums = [1, 2, 3, 4, 5, 6],
     dblNums = [];
 
-for (var i = 0, numsLen = nums.length; i < numsLen; i++) {
+for (var i = 0, len = nums.length; i < len; i++) {
   dblNums[i] = nums[i] * 2;
 }
 {% endhighlight %}
