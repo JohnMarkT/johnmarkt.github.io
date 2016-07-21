@@ -29,5 +29,5 @@ var nums = [1, 2, 3, 4, 5, 6],
     dblNums = nums.map(n => n * 2);
 {% endhighlight %}
 
-[^map]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Browser_compatibility>
-[^arrow]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Browser_compatibility>
+[^map]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Browser_compatibility>{:target="_blank"}
+[^arrow]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Browser_compatibility>{:target="_blank"}
