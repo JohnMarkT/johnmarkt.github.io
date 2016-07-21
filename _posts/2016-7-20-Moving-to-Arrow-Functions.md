@@ -15,7 +15,7 @@ for (var i = 0, len = nums.length; i < len; i++) {
 }
 {% endhighlight %}
 
-Using the map function
+Using the map function[^map]
 {% highlight js %}
 var nums = [1, 2, 3, 4, 5, 6],
     dblNums = nums.map(function(n) {
@@ -23,8 +23,11 @@ var nums = [1, 2, 3, 4, 5, 6],
     });
 {% endhighlight %}
 
-Using an arrow function in the map function
+Using an arrow function[^arrow] in the map function
 {% highlight js %}
 var nums = [1, 2, 3, 4, 5, 6],
     dblNums = nums.map(n => n * 2);
 {% endhighlight %}
+
+[^map]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Browser_compatibility>
+[^arrow]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Browser_compatibility>
