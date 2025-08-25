@@ -14,7 +14,7 @@ Toggle SSL of current URL
 [clear qs](javascript:(l=>{l.href=l.origin+l.pathname})(location)){: .btn }
 Remove query string parameters of current URL
 
-[cache bust](javascript:((l,s,d)=>{l[s]+=(l[s].startsWith('?')?'&':'?')+'_cb='+d.getTime()})(location,'search',new Date)){: .btn}
+[cache bust](javascript:((p,l,s)=>{p=new URLSearchParams(l[s]);p.set('_cb',Date.now());l[s]=p})({},location,'search')){: .btn}
 Bust site's cache by adding timestamp to query string
 
 [del el](javascript:((j,b)=>{j.t=!j.t;const f=j.t?b.addEventListener:b.removeEventListener;console.log('remove mode %s',j.t?'on':'off');j.rE=j.rE||(e=>{const el=e.target;e.preventDefault();console.log('removing:',el);el.parentNode.removeChild(el);});f('click',j.rE,0);})(window.JMT=window.JMT||{},document.body)){: .btn}
